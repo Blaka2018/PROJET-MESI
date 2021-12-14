@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PORTAIL WEB DE NOTES IPI</title>
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+
+	<!------------------------------------------------ HEADER ---------------------------------------------->
+	<header>
+		<div class="card">
+			<div class="row">
+				<div class="col-md-12">
+					<h1>Bienvenue sur le portail web de notes de l'ipi <br> (Institut Poly-Informatique)</h1>
+				</div>
+			</div>
+		</div>
+		<div class="img-annexe">
+			<div class="row">
+				<img src="images/igs.jpg" alt="image igs">
+				<img src="images/adip.jpg" alt="image adip">
+				<img src="images/ciefa.jpg" alt="image ciefa">
+				<img src="images/cfa.jpg" alt="image cfa">
+			</div>
+		</div>
+		<div class="img-center">
+			<img src="images/ipi.jpg" alt="image ipi">
+		</div>
+	</header>
+	
+	<!------------------------------------------- FORMULAIRE DE CONNEXION ----------------------------------->
+
+	
+	<div class="container">
+		<h3>Vous souhaitez vous connecter :</h3>
+		<div class="separateur"></div>
+		<div class="title-form">
+			<span>Entrez votre identifiant et votre mot de passe.</span>
+		</div>
+		<div class="row">
+			<div class="col-lg-10 col-lg-offset-1">
+				<form action="index.php" id="contact-form" method="POST">
+					
+						<div class="col-md-12">
+							<label for="identifiant">Identifiant <span class="red">*</span></label>
+							<input type="text" id="identifiant" name="identifiant" class="form-control">
+						</div>
+
+						<div class="col-md-12">
+							<label for="password">Mot de passe <span class="red">*</span></label>
+							<input type="password" id="password" name="password" class="form-control">
+						</div>
+
+						<div class="pass">Mot de passe oublié ?</div>
+
+						<div class="send">
+							<input type="submit" class="button" value="Valider">
+						</div>
+				
+				</form>
+			</div>
+
+		</div>
+	</div>
+
+
+	
+    <!---------------------------------------------- FOOTER ---------------------------------------------->
+	<footer>
+		<a href=""><i class="fa fa-facebook"></i></a>
+		<a href=""><i class="fa fa-instagram"></i></a>
+		<a href=""><i class="fa fa-linkedin"></i></a>
+		<p> @ 2021 Copyright by Institut Poly-Informatique (IPI)</p>
+		
+	</footer>
+</body>
+</html>

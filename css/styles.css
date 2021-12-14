@@ -1,0 +1,267 @@
+/********************************************** GENERAL *********************************************/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+a {
+	text-decoration: none;
+}
+
+body {
+	font-family: "Open Sans" Arial;
+}
+
+
+
+
+/******************************************** HEADER *************************************************/
+
+header {
+	background-color: #FF0000;
+}
+
+.card {
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	font-weight: bold;
+}
+
+img {
+	width: 120px;
+}
+
+img:first-child {
+	margin-right: 6px;
+}
+
+img:nth-child(4) {
+	float: right;
+	margin-right: 10px;
+}
+
+img:nth-child(3) {
+	float: right;
+}
+
+.img-center {
+	text-align: center;
+}
+
+/*************************************************** MAIN ***************************************/
+
+.container {
+	padding-right: 15px;
+	padding-left: 15px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.container h3 {
+	margin-top: 80px;
+	text-align: center;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+div.separateur {
+	background-color: #FF0000;
+	height: 5px;
+	width: 300px;
+	position: relative;
+	left: 50%;
+	margin-left: -150px;
+}
+
+
+
+.title-form  {
+	margin-top: 40px;
+	text-align: center;
+	font-size: 20px;
+}
+
+div.row {
+	margin: 30px 50px;
+	padding: 20px 30px;
+	box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+.red {
+	color: #FF0000;
+}
+
+label {
+	margin-top: 20px;
+}
+
+.form-control {
+	height: 50px;
+	font-size: 50px;
+}
+
+#contact-form input[type=submit]{
+	margin: 20px auto 0px;
+	display: block;
+}
+
+.send {
+	text-align: center;
+}
+
+.button {
+	border: 1px solid #ddd;
+	width: 35%;
+	background-color:#FF0000; 
+	color: #fff;
+	margin-top: 25px;
+	font-weight: bold;
+	padding: 15px;
+	border-radius: 18px;
+}
+
+.pass {
+	margin: 10px 0 20px 5px;
+	color: #a6a6a6;
+	cursor: pointer;
+	text-align: center;
+}
+
+.pass:hover {
+	text-decoration: underline;
+}
+
+.button:hover{
+	background-color: #fff;
+	color: #000;
+	box-shadow: 0px 0px 8px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+/********************************************* ESPACE ETUDIANT ****************************************/
+
+.title {
+	text-align: center;
+	font-size: 20px;
+	color: #fff;
+	font-weight: bold;
+}
+
+.menu  {
+	text-align: center;
+}
+
+.menu a {
+	color: #fff;
+	margin-right: 30px;
+	font-size: 18px;
+}
+
+.menu a:hover{
+	text-decoration: none;
+	color: #00FFFF;
+}
+
+
+.download {
+	text-align: center;
+}
+
+a.releve-button {
+	color: #fff;
+	border: 3px solid #979797;
+	padding: 8px 20px;
+	text-transform: uppercase;
+	background-color: #FF0000;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+a.releve-button:hover {
+	background-color: #fff;
+	text-decoration: none;
+	color: #FF0000; 
+}
+
+
+
+/*********************************************** TABLEAUX ************************************************/
+
+table {
+	margin-top: 50px;
+	border: 3px solid #000000;
+} 
+
+thead th {
+	text-align: center;
+}
+
+tbody th {
+	text-align: center;
+}
+
+.table1 {
+	position: relative;
+	left: 30%;
+	margin-left: -150px;
+}
+
+
+.table2 {
+	position: relative;
+	left: 30%;
+	margin-left: -90px;
+
+}
+
+
+
+/********************************************** BULLETIN ***********************************************/
+
+.bulletin {
+	margin-right: 30px;
+}
+
+.bulletin img:nth-child(2){
+	text-align: center;
+}
+
+.titre {
+	width: 70%;
+	height: 60px;
+	border: 1px solid #000;
+	text-align: center;
+	position: relative;
+	margin-left: 150px;
+	font-weight: bold;
+
+}
+
+.name {
+	margin-top: 10px;
+}
+
+
+
+
+/************************************************ FOOTER **********************************************/
+
+footer {
+	background-color:#FF0000;
+	height: 70px;
+	text-align: center;
+	margin-top: 30px;
+}
+
+footer a {
+	margin-right: 20px;
+	color: #fff;
+	font-size: 25px;
+}
+
+footer p {
+	font-weight: bold;
+}

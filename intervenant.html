@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PORTAIL WEB DE NOTES IPI</title>
+	<link rel="stylesheet" href="css/styles.css">
+	
+	<!-- CSS only -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<nav>
+			<div class="row">
+				<img src="images/ipi.jpg" alt="image de l'ipi">
+				<div class="title">
+					<span>Nom et prénom <br>de l'intervenant</span>
+				</div>
+			</div>
+			<div class="menu">
+				<a href="#">N4-CPMI</a>
+				<a href="#">N6-BIFD#1</a>
+				<a href="#">N5-TSTN</a>
+				<a href="#">N6-CDEV</a>
+				<a href="#">N6-DIGITALENT#1</a>
+				<a href="#">N6-ASRBD</a>
+				<a href="#">N7-CPIL</a>
+				<a href="#">N7-CPRS</a>
+				<a href="#">N7-CPAMOA</a>
+			</div>
+			
+		</nav>
+	</header>
+
+	<!------------------ TABLEAU LISTE DES ETUDIANTS, NOTES ET APPRECIATION --------------------------------->
+	
+	<div class="container">
+		<section>
+			<h3>Promotion et Modules</h3>
+			<div class="separateur"></div>
+
+			<table  border="2" cellpading="0" cellspacing="0" style="width: 100%;">
+				<tbody>
+					<tr>
+						<th rowspan="6" bgcolor="#99CCFF" style="text-align: center;">PROMOTION</th>
+						<td>IPYT010 - Introduction au langage python</td>
+
+					</tr>
+					<tr>
+						<td>IAUX050 - Administration Unix</td>
+
+					</tr>
+					<tr>
+						<td>IAUX060 - Réseaux et sécurité</td>
+
+					</tr>
+					<tr>
+						<td>IPYT010 - Introduction au langage python</td>
+
+					</tr>
+					<tr>
+						<td>IAUX050 - Administration Unix</td>
+
+					</tr>
+					<tr>
+						<td>IAUX060 - Réseaux et sécurité</td>
+
+					</tr>
+				</tbody>
+			</table>
+		</section>
+
+
+	<!------------------ TABLEAU LISTE DES ETUDIANTS, NOTES ET APPRECIATION --------------------------------->
+
+
+		<section>
+			<h3>Liste des étudiants, les notes et appréciation des intervenants</h3>
+			<div class="separateur"></div>
+
+			<form name="form_submit" method="post" action="">
+				<table class="table table-bordered">
+					<thead>
+						<tr>
+							<th scope="col">Liste des étudiants</th>
+							<th scope="col">Notes</th>
+							<th scope="col">Appréciations</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>ADAMA BLAKA</td>
+							<td><input type="text" name="text[]" /></td>
+							<td><input type="text" name="text[]" /></td>
+						</tr>
+						<tr>
+							<td>JESSIM TORCHE</td>
+							<td><input type="text" name="text[]" /></td>
+							<td><input type="text" name="text[]" /></td>
+						</tr>
+						<tr>
+							<td>FOLLY KOUDOUVO</td>
+							<td><input type="text" name="text[]" /></td>
+							<td><input type="text" name="text[]" /></td>
+						</tr>
+						<tr>
+							<td>MATISS ROSSET</td>
+							<td><input type="text" name="text[]" /></td>
+							<td><input type="text" name="text[]" /></td>
+						</tr>
+					</tbody>
+					<tr>
+						<td colspan="3"><input type="submit" value="ENVOYER" name="submit" /></td>
+					</tr>
+				</table>
+			</form>
+		</section>
+	</div>
+
+	<footer>
+		<a href=""><i class="fa fa-facebook"></i></a>
+		<a href=""><i class="fa fa-instagram"></i></a>
+		<a href=""><i class="fa fa-linkedin"></i></a>
+		<p>@ 2021 Copyright  by Institut Poly-Informatique (IPI)</p>
+		
+	</footer>
+
+
+	
+	
+</body>
+</html>
