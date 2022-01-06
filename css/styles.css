@@ -203,6 +203,12 @@ tbody th {
 	text-align: center;
 }
 
+tbody td a {
+	font-size: 20px;
+	float: right;
+    padding-right: 1em;
+}
+
 .table1 {
 	position: relative;
 	left: 30%;
